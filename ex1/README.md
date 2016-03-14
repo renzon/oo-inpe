@@ -11,8 +11,7 @@ pasta rodar python main.py do pacote ex1.
 
 
 ##Exemplo de execução:
-    Renzos-MacBook-Pro:oo-inpe renzo$ cd ex1/
-    Renzos-MacBook-Pro:ex1 renzo$ python3 main.py 
+    /usr/local/Cellar/python3/3.4.3/Frameworks/Python.framework/Versions/3.4/bin/python3.4 /Users/renzo/PycharmProjects/oo-inpe/ex1/main.py
     ###### Tempo: 1 #########
     --------Evento gerador msgs:
     --------- Termino de msgs
@@ -20,109 +19,151 @@ pasta rodar python main.py do pacote ex1.
     --------Evento gerador msgs:
     --------- Termino de msgs
     ###### Tempo: 3 #########
-    --------Evento gerador msgs:
-    --------- Termino de msgs
-    ###### Tempo: 4 #########
-    --------Evento gerador msgs:
-    --------- Termino de msgs
-    ###### Tempo: 5 #########
     MSG
     Contador: 0
     --------Evento gerador msgs:
     MSG
     --------- Termino de msgs
+    ###### Tempo: 4 #########
+    --------Evento gerador msgs:
+    MSG
+    --------- Termino de msgs
+    ###### Tempo: 5 #########
+    MSG
+    Contador: 1
+    MSG
+    Contador: 2
+    --------Evento gerador msgs:
+    MSG
+    MSG
+    MSG
+    --------- Termino de msgs
     ###### Tempo: 6 #########
     --------Evento gerador msgs:
+    MSG
+    MSG
     MSG
     --------- Termino de msgs
     ###### Tempo: 7 #########
     --------Evento gerador msgs:
     MSG
+    MSG
+    MSG
     --------- Termino de msgs
     ###### Tempo: 8 #########
-    MSG. Tempo=8
-    Contador: 1
     --------Evento gerador msgs:
     MSG
-    MSG. Tempo=8
+    MSG
+    MSG
     --------- Termino de msgs
     ###### Tempo: 9 #########
+    MSG. Tempo=9
+    Contador: 3
     --------Evento gerador msgs:
     MSG
-    MSG. Tempo=8
+    MSG
+    MSG
+    MSG. Tempo=9
     --------- Termino de msgs
     ###### Tempo: 10 #########
     MSG
-    Contador: 2
+    Contador: 4
     --------Evento gerador msgs:
     MSG
-    MSG. Tempo=8
+    MSG
+    MSG
+    MSG. Tempo=9
     MSG
     --------- Termino de msgs
     ###### Tempo: 11 #########
     --------Evento gerador msgs:
     MSG
-    MSG. Tempo=8
+    MSG
+    MSG
+    MSG. Tempo=9
     MSG
     --------- Termino de msgs
     ###### Tempo: 12 #########
     --------Evento gerador msgs:
     MSG
-    MSG. Tempo=8
+    MSG
+    MSG
+    MSG. Tempo=9
     MSG
     --------- Termino de msgs
     ###### Tempo: 13 #########
     --------Evento gerador msgs:
     MSG
-    MSG. Tempo=8
+    MSG
+    MSG
+    MSG. Tempo=9
     MSG
     --------- Termino de msgs
     ###### Tempo: 14 #########
+    MSG
+    Contador: 5
     --------Evento gerador msgs:
     MSG
-    MSG. Tempo=8
+    MSG
+    MSG
+    MSG. Tempo=9
+    MSG
     MSG
     --------- Termino de msgs
     ###### Tempo: 15 #########
     MSG
-    Contador: 3
+    Contador: 6
     --------Evento gerador msgs:
     MSG
-    MSG. Tempo=8
+    MSG
+    MSG
+    MSG. Tempo=9
+    MSG
     MSG
     MSG
     --------- Termino de msgs
     ###### Tempo: 16 #########
     --------Evento gerador msgs:
     MSG
-    MSG. Tempo=8
+    MSG
+    MSG
+    MSG. Tempo=9
+    MSG
     MSG
     MSG
     --------- Termino de msgs
     ###### Tempo: 17 #########
-    MSG. Tempo=17
-    Contador: 4
     --------Evento gerador msgs:
     MSG
-    MSG. Tempo=8
     MSG
     MSG
-    MSG. Tempo=17
+    MSG. Tempo=9
+    MSG
+    MSG
+    MSG
     --------- Termino de msgs
     ###### Tempo: 18 #########
     --------Evento gerador msgs:
     MSG
-    MSG. Tempo=8
     MSG
     MSG
-    MSG. Tempo=17
+    MSG. Tempo=9
+    MSG
+    MSG
+    MSG
     --------- Termino de msgs
     ###### Tempo: 19 #########
+    MSG. Tempo=19
+    Contador: 7
     --------Evento gerador msgs:
     MSG
-    MSG. Tempo=8
     MSG
     MSG
-    MSG. Tempo=17
+    MSG. Tempo=9
+    MSG
+    MSG
+    MSG
+    MSG. Tempo=19
     --------- Termino de msgs
-
+    
+    Process finished with exit code 0

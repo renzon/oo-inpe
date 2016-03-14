@@ -26,13 +26,12 @@ gerador_listener = GeradorListener(MSG)
 despachador.adicionar(Impressor(), Contador(), gerador_listener)
 
 tempo_5_s = Tempo5Segundos()
-tempo_aleatorio = TempoAleatorio()
 transformador_nulo = TransformadorNulo()
 transformador_com_tempo = TransformadorComTempo()
 
 geradores = (GeradorBridge(MSG, tempo_5_s, transformador_nulo),
-             GeradorBridge(MSG, tempo_aleatorio, transformador_com_tempo),
-             GeradorBridge(MSG, tempo_aleatorio, transformador_nulo),
+             GeradorBridge(MSG, TempoAleatorio(), transformador_com_tempo),
+             GeradorBridge(MSG, TempoAleatorio(), transformador_nulo),
              gerador_listener)
 
 geradores = tuple(injetar_despachador_e_decorar(g) for g in geradores)
