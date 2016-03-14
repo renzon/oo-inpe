@@ -1,3 +1,13 @@
+import os
+
+import sys
+
+project_dir = os.path.dirname(__file__)
+project_dir = os.path.join('..', project_dir)
+project_dir = os.path.abspath(project_dir)
+
+sys.path.append(project_dir)
+
 from ex1.dispatcher import Despachador
 from ex1.gerador import GeradorDecorator, Tempo5Segundos, TempoAleatorio, TransformadorNulo, TransformadorComTempo, \
     GeradorBridge
